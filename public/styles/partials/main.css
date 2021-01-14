@@ -1,0 +1,59 @@
+main{
+    padding-top: 70px;
+}
+#landing{
+    width: 100%;
+    height: calc(100vh - 90px);
+}
+#landing .max{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#landing .descrip{
+    width: 50%;
+}
+#landing .descrip h1{
+    font-size: var(--fs-h1);
+    line-height: 50px;
+}
+#landing .descrip p{
+    font-size: var(--fs-p);
+}
+#landing .rc{
+    width: 50%;
+    text-align: right;
+    color: #4d85ff;
+}
+#landing .rc img{
+    width: 80%;
+}
+
+/*TEST HTML*/
+.test{
+    flex-direction: column;
+    justify-content: center;
+}
+#landing .max h1{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+#landing .max textarea{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #5f5fff57;
+    resize: none;
+    border-radius: 10px;
+    background-color: var(--color-primary-light);
+    color: var(--color-text-primary);
+    font-weight: 500;
+    font-size: var(--fs-ta);
+    
+}
+#landing .max textarea:focus{
+    border: 2px solid var(--color-primary);
+}

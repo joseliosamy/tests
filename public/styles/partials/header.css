@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--color-primary);
+    position: fixed;
+}
+nav{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    color: var(--color-text-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav span{
+    color: var(--color-text-light);
+    font-weight: 700;
+    font-size: 2rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul a{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 10px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-text-light);
+    position: relative;
+    transition: 200ms;
+}
+nav ul a:hover{
+    color: var(--color-text-ligh-hover);
+}
+nav ul a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-text-ligh-hover);
+    bottom: -10px;
+    position: absolute;
+    transition: 200ms;
+}
+nav ul a:hover::before{
+    width: 100%;
+    height: 2px;
+}
