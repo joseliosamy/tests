@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="../styles/partials/header.css">
     <link rel="stylesheet" href="../styles/partials/main.css">
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/partials/responsive.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Test HTML</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="/"><span>Test's</span></a>
-            <ul>
+        <nav >
+            <a href="/"><span>Test's</span></a>    
+            <a id="menu" href="#"><i class='bx bx-caret-left'></i></a>
+            <ul class="nav">
                 <a href="/"><li>Home</li></a>
                 <a href="/test-html"><li>Test HTML</li></a>
                 <a href="/test-css"><li>Test CSS</li></a>
@@ -25,10 +27,12 @@
     <main>
         <section id="landing">
             <div class="max test">
-                <h1>Testing html here <i class='bx bxl-html5' style='color:#5f5fff'  ></i></h1>
+                <h1>Testing html here <i class='bx bxl-html5' style='color:#000'  ></i></h1>
                 <textarea class="textarea" name="test-html" type="text"></textarea>
             </div><!--max-->
         </section><!--landing-->
     </main><!--main-->
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/menu.js"></script>
 </body>
 </html>

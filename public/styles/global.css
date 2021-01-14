@@ -2,16 +2,23 @@
 /*font-family: 'Poppins', sans-serif;*/
 :root{
     --color-background: #fff;
-    --color-primary: #5F5FFF;
-    --color-primary-lighter: #6f6ff5;
-    --color-text-primary: #5F5FFF;
-    --color-text-lighter: #6f6ff5;
-    --color-text-light: #fff;
-    --color-text-ligh-hover: #d6d6ff;
+    --color-primary: #000;
+    --color-hover: #363636;
     --fs-h1: 4rem;
     --fs-ta: 1.5rem;
     --fs-p: 1rem;
-
+}
+::selection{
+    color: #ffffff;
+    background-color: #000000;
+}
+::-moz-selection{
+    color: #ffffff;
+    background-color: #000000;
+}
+::-webkit-selection{
+    color: #ffffff;
+    background-color: #000000;
 }
 *{
     padding: 0;
