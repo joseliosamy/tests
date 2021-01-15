@@ -1,6 +1,3 @@
-main{
-    padding-top: 70px;
-}
 #landing{
     width: 100%;
     height: calc(100vh - 70px);
@@ -33,11 +30,22 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-#landing .max h1{
+#landing .max form h1{
+    width: 100%;
     font-weight: 400;
     margin-bottom: 10px;
+    text-align: center;
+
 }
-#landing .max textarea{
+#landing .max form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+#landing .max form textarea{
     width: 100%;
     height: 60%;
     display: flex;
@@ -53,6 +61,6 @@ main{
     font-size: var(--fs-ta);
     
 }
-#landing .max textarea:focus{
+#landing .max form textarea:focus{
     border: 2px solid var(--color-primary);
 }

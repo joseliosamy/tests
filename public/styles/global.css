@@ -36,6 +36,10 @@ body{
     color: var(--color-text-primary);
     overflow: hidden;
 }
+main{
+    padding-top: 70px;
+    height: 100%;
+}
 
 /*bot*/
 .max{

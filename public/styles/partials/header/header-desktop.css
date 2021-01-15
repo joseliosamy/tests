@@ -56,23 +56,3 @@ nav ul a:hover::before{
     height: 2px;
 }
 
-@keyframes show{
-    from{
-
-        right: -500px;
-    }
-    to{
-
-        right: 0;
-    }
-}
-@keyframes hide{
-    from{
-
-        right: 0;
-    }
-    to{
-
-        right: -500px;
-    }
-}

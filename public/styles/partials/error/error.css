@@ -1,0 +1,24 @@
+#error{
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+#error .max{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#error .max h1{
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+}
+#error .max .rc{
+    width: 100%;
+    text-align: center;
+}
+#error .max img{
+    width: 100%;
+    max-width: 600px;
+}

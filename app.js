@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 8877;
 
 app.use(express.static("public"))
 
+
 app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/index.html')
 })
@@ -18,8 +19,10 @@ app.get('/test-css', (req, res)=>{
 app.get('/test-js', (req, res)=>{
     res.sendFile(__dirname + '/pages/test-js.html')
 })
+app.get('/:erro', (req, res)=>{
+    res.sendFile(__dirname + '/pages/error.html')
+})
 
 app.listen(PORT, ()=>{
     console.log('escutando a porta:' + PORT)
 })
-
