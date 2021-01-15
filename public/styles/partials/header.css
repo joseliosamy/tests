@@ -3,6 +3,7 @@ header{
     height: 70px;
     background-color: #fff;
     position: fixed;
+    
 }
 nav{
     width: 70%;
@@ -57,17 +58,21 @@ nav ul a:hover::before{
 
 @keyframes show{
     from{
+
         right: -500px;
     }
     to{
+
         right: 0;
     }
 }
 @keyframes hide{
     from{
+
         right: 0;
     }
     to{
+
         right: -500px;
     }
 }

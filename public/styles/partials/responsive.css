@@ -1,12 +1,6 @@
 @media(max-width:900px){
-    body{
-        overflow: hidden;
-    }
     main{
-        padding: 0;
-    }
-    header{
-        position: relative;
+        height: 100%;
     }
     nav ul{
         flex-direction: column;
@@ -56,6 +50,7 @@
         color: grey;
     }
     .show{
+
         right: 0;
         animation: show 500ms;
     }

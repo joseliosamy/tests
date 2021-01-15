@@ -34,10 +34,12 @@ body{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: var(--color-text-primary);
+    overflow: hidden;
 }
 
 /*bot*/
 .max{
     width: 70%;
     margin: 0 auto;
+    overflow: hidden;
 }
