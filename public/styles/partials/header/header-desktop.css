@@ -9,7 +9,7 @@ nav{
     width: 70%;
     height: 100%;
     margin: 0 auto;
-    color: var(--color-text-light);
+    color: var(--color-text-dark);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +18,7 @@ nav{
     display: none;
 }
 nav span{
-    color: var(--color-text-light);
+    color: var(--color-text-dark);
     font-weight: 700;
     font-size: 2rem;
 }
@@ -37,7 +37,7 @@ nav ul a{
     margin: 0 10px;
     list-style: none;
     text-decoration: none;
-    color: var(--color-text-light);
+    color: var(--color-text-dark);
     position: relative;
     transition: 200ms;
 }

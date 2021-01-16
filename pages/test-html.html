@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/partials/header/header-mobile.css">
     <link rel="stylesheet" href="styles/partials/header/header-animations.css">
     <!--home-->
-    <link rel="stylesheet" href="styles/partials/home/home.css">
+    <link rel="stylesheet" href="styles/partials/tests-tecnologies/test-html.css">
 
     <!--global and responsive-->
     <link rel="stylesheet" href="styles/global.css">
@@ -35,10 +35,28 @@
         <section id="landing">
             <div class="max test">
                 <form>
-                    <h1>Testing html here <i class='bx bxl-html5' style='color:#000'  ></i></h1>
-                    <textarea class="textarea" name="test-html" type="text"></textarea>
-                    <button type="button">Test</button>
-                </form>
+                    <div class="box">
+                        <h1 class="fcenter">Test HTML here <i class='bx bxl-html5' style='color:#000'  ></i></h1>
+                        
+                        <input type="button" value="Test" onclick="document.write(test_html.value)">
+                    </div><!--box-->
+                    <textarea class="textarea" name="test_html" type="text">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tittle name</title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+                            
+    </body>
+</html>
+                    </textarea><!--textarea-->
+                </form><!--form-->
             </div><!--max-->
         </section><!--landing-->
     </main><!--main-->

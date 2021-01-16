@@ -4,8 +4,12 @@
     --color-background: #fff;
     --color-primary: #000;
     --color-hover: #363636;
+    --color-text-light: #fff;
+    --color-text-dark: #000;
+    --color-text-textarea: #b4b4b4;
+    --color-text-input: #b4b4b4;
     --fs-h1: 4rem;
-    --fs-ta: 1.5rem;
+    --fs-ta: 1.2rem;
     --fs-p: 1rem;
 }
 ::selection{
@@ -46,4 +50,24 @@ main{
     width: 70%;
     margin: 0 auto;
     overflow: hidden;
+}
+.fcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[value="Test"]{
+    width: 90px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--color-background);
+    color: var(--color-text-dark);
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    transition: 200ms;
+}
+input[value="Test"]:hover{
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
 }

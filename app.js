@@ -6,19 +6,23 @@ const PORT = process.env.PORT || 8877;
 
 app.use(express.static("public"))
 
-
+// HOME
 app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/index.html')
 })
+//TEST HTML
 app.get('/test-html', (req, res)=>{
     res.sendFile(__dirname + '/pages/test-html.html')
 })
+//TEST CSS
 app.get('/test-css', (req, res)=>{
     res.sendFile(__dirname + '/pages/test-css.html')
 })
+//TEST JS
 app.get('/test-js', (req, res)=>{
     res.sendFile(__dirname + '/pages/test-js.html')
 })
+//FILTER ERROR 404
 app.get('/:erro', (req, res)=>{
     res.sendFile(__dirname + '/pages/error.html')
 })
