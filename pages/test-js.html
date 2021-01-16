@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styles/partials/header/header-mobile.css">
     <link rel="stylesheet" href="styles/partials/header/header-animations.css">
     <!--home-->
-    <link rel="stylesheet" href="styles/partials/home/home.css">
+    <!--tests-->
+    <link rel="stylesheet" href="styles/partials/tests-tecnologies/tests.css">
 
     <!--global and responsive-->
     <link rel="stylesheet" href="styles/global.css">
@@ -32,14 +33,23 @@
         </nav><!--nav-->
     </header><!--header-->
     <main>
-        <section id="landing">
+        <section id="panel">
             <div class="max test">
-                <h1>Testing JS here <i class='bx bxl-javascript' style='color:#000' ></i></h1>
-                <textarea class="textarea" name="test-html" type="text"></textarea>
+                <form>
+                    <div class="box">
+                        <h1 class="fcenter">Test Java Script here <i class='bx bxl-javascript' ></i></h1>
+                        
+                        <input type="button" value="Test" onclick="test_js">
+                    </div><!--box-->
+                    <textarea class="textarea" name='test_js()' type="text">
+document.alert('ola');
+                    </textarea><!--textarea-->
+                </form><!--form-->
             </div><!--max-->
-        </section><!--landing-->
+        </section><!--panel-->
     </main><!--main-->
     <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/tests/test-js.js"></script>
     <script src="../scripts/menu.js"></script>
 </body>
 </html>

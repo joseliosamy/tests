@@ -2,33 +2,33 @@
     flex-direction: column;
     justify-content: center;
 }
-#landing{
+#panel{
     height: 100%;
 }
-#landing .max{
+#panel .max{
     height: 100%;
 }
-#landing .max form h1{
+#panel .max form h1{
     font-weight: 400;
     margin-bottom: 10px;
 }
-#landing .max form{
+#panel .max form{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
-#landing .max form .box{
+#panel .max form .box{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#landing .max form .box i{
+#panel .max form .box i{
     font-size: 2rem;
 }
-#landing .max form textarea{
+#panel .max form textarea{
     width: 100%;
     min-height: 90%;
     display: flex;
@@ -43,6 +43,6 @@
     font-weight: 500;
     font-size: var(--fs-ta);
 }
-#landing .max form textarea:focus{
+#panel .max form textarea:focus{
     border: 2px solid var(--color-primary);
 }
