@@ -14,13 +14,9 @@ app.get('/', (req, res)=>{
 app.get('/test-html', (req, res)=>{
     res.sendFile(__dirname + '/pages/test-html.html')
 })
-//TEST CSS
-app.get('/test-css', (req, res)=>{
-    res.sendFile(__dirname + '/pages/test-css.html')
-})
-//TEST JS
-app.get('/test-js', (req, res)=>{
-    res.sendFile(__dirname + '/pages/test-js.html')
+//CONSUME API
+app.get('/consume-api', (req, res)=>{
+    res.sendFile(__dirname + '/pages/consume-api.html')
 })
 //FILTER ERROR 404
 app.get('/:erro', (req, res)=>{
