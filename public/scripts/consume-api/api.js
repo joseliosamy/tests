@@ -11,23 +11,23 @@ async function getContent(){
 }
 getContent()
 
-function show(topics){
+function show(users){
     let output = ""
-    for (let topic of topics){
+    for (let user of users){
         output += `
         <div class="card">
             <div class="name">
-                <h4>${topic.title}</h4>
+                <h4>${user.title}</h4>
             </div><!--name-->
 
             <div class="content">
 
-                <p>${topic.text}</p>
+                <p>${user.text}</p>
 
                 <div class="links">
 
                     <ul>
-                        <li><a href="${topic.linkContent.link}">${topic.link.linkContent.name}</a></li>
+                        <li><a href="${user.linkContent.link}">${user.linkContent.name}</a></li>
                     </ul>
 
                 </div><!--links-->
