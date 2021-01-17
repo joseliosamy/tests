@@ -26,10 +26,10 @@ app.get('/consume-api', (req, res)=>{
 })
 //API BASICA
 app.get('/api', (req, res)=>{
-    res.json({
-        name: 'Josélio',
-        age: '20'
-    })
+    res.json([
+        {name:"Josélio"},
+        {name:"jamura"}
+    ])
 })
 //FILTER ERROR 404
 app.get('/:erro', (req, res)=>{
