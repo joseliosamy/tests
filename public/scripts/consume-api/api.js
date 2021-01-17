@@ -2,7 +2,7 @@ async function getContent(){
     try{
         const response = await fetch('https://tests-my.herokuapp.com/api');
         const data = await response.json();
-
+        show(data)
         
     }
     catch(error){
@@ -11,23 +11,23 @@ async function getContent(){
 }
 getContent()
 
-function show(users){
+function show(topics){
     let output = ""
-    for (let user of users){
+    for (let topic of topics){
         output += `
         <div class="card">
             <div class="name">
-                <h4>${user.title}</h4>
+                <h4>${topic.title}</h4>
             </div><!--name-->
 
             <div class="content">
 
-                <p>${user.text}</p>
+                <p>${topic.text}</p>
 
                 <div class="links">
 
                     <ul>
-                        <li><a href="${user.linkContent.link}">${user.linkContent.name}</a></li>
+                        <li><a href="${topic.linkContent.link}">${topic.linkContent.name}</a></li>
                     </ul>
 
                 </div><!--links-->
