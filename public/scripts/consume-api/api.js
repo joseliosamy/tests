@@ -35,5 +35,5 @@ function show(topics){
         </div><!--card-->`
     }
     
-    document.querySelector('#api .max').innerHTML = output
+    document.querySelector('#api .max .cards').innerHTML = output
 }

@@ -17,6 +17,7 @@
         width: 90%;
         margin-bottom: 30px;
     }
+    /*CONSUME API*/
 }
 @media(max-width:300px){
     #landing .descrip h1{
