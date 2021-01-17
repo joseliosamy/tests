@@ -2,6 +2,11 @@
     #panel .max{
         width: 90%;
     }
+    /*SOCIAL NETWORK*/
+    .posts{
+        width: 100%;
+    }
+    
 }
 @media(max-width:650px){
     #landing .max{
@@ -23,6 +28,13 @@
     }
     .card{
         width: 100%;
+    }
+    /*SOCIAL NETWORK*/    
+    .post{
+        width: 100%;
+    }
+    .post .post-content{
+        height: 100%;
     }
 }
 @media(max-width:300px){
