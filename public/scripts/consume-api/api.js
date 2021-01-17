@@ -27,7 +27,7 @@ function show(topics){
                 <div class="links">
 
                     <ul>
-                        <li><a href="${topic.linkContent.link}">${topic.linkContent.name}</a></li>
+                        <li><a href="#">teste</a></li>
                     </ul>
 
                 </div><!--links-->
