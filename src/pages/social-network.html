@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--header-->
+    <link rel="stylesheet" href="styles/partials/header/header-desktop.css">
+    <link rel="stylesheet" href="styles/partials/header/header-mobile.css">
+    <link rel="stylesheet" href="styles/partials/header/header-animations.css">
+    <!--social-net-->
+    <link rel="stylesheet" href="styles/partials/social-net/social-network.css">
+
+    <!--global and responsive-->
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/partials/responsive.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Consume API</title>
+</head>
+<body id="body">
+    <header>
+        <nav>
+            <a href="/"><span>Test's</span></a>    
+            <a id="menu" href="#"><i class='bx bx-caret-left'></i></a>
+            <ul class="nav">
+                <a href="/"><li>Home</li></a>
+                <a href="/test-html"><li>Test HTML</li></a>
+                <a href="/consume-api"><li>Consume API</li></a>
+                <a href="/social-network"><li>Social Network</li></a>
+            </ul><!--ul-->
+        </nav><!--nav-->
+    </header><!--header-->
+    <main>
+        <section id="container">
+            <div class="max">  
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-header">
+                            <div class="rc">
+                                <img src="images/profile.png" alt="profile">
+                            </div>
+                            <p>User</p>
+                        </div>
+                        <div class="post-content">
+                            <div class="rc">
+                                <img src="https://api.time.com/wp-content/uploads/2017/12/terry-crews-person-of-year-2017-time-magazine-2.jpg?w=800&quality=85" alt="Terry">
+                            </div>
+                        </div>
+                        <div class="post-footer">
+                            <div class="actions">
+                                <button class="action active"><i class='bx bx-like'></i></button>
+                                <button class="action hover"><i class='bx bx-comment'></i></button>
+                                <button class="action hover"><i class='bx bx-share' ></i></button>
+                            </div><!--actions-->
+                            <div class="comments">
+                                <div class="likes">
+                                    <div class="nlikes">
+                                        <strong>21,565 likes</strong>
+                                    </div><!--nlikes-->
+                                </div><!--likes-->
+                                <div class="box-comment">
+                                    <div class="profile">
+                                        <div class="rc">
+                                            <img src="images/profile.png" alt="profile">
+                                        </div><!--rc-->
+                                        <p>User</p>
+                                    </div><!--profile-->
+                                    <div class="capture-comments">
+                                        <textarea name="comment" id="comments" placeholder="Add a comment" autocomplete="off"></textarea>
+                                    </div>
+                                </div><!--box-comment-->
+                            </div><!--comments-->
+                        </div><!--post-footer-->
+                    </div><!--post-->
+                </div><!--posts-->
+            </div><!--max-->
+        </section><!--landing-->
+    </main><!--main-->
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/menu.js"></script>
+</body>
+</html>

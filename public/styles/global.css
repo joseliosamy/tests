@@ -4,6 +4,7 @@
     --color-background: #fff;
     --color-primary: #000;
     --color-hover: #363636;
+    --color-post-background: #fbfbfb;
     --color-text-light: #fff;
     --color-text-dark: #000;
     --color-text-textarea: #b4b4b4;
@@ -11,6 +12,8 @@
     --fs-h1: 4rem;
     --fs-ta: 1.2rem;
     --fs-p: 1rem;
+    --fs-post: .8rem;
+    --fs-footer-strong: .7rem;
 }
 ::selection{
     color: #ffffff;

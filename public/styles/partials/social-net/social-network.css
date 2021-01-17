@@ -1,0 +1,123 @@
+#body{
+    height: 100%;
+    overflow: auto;
+}
+
+.posts{
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.post{
+    width: 550px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.post .post-header{
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: var(--color-post-background);
+    border-radius: 3px;
+    border-left: 1px solid #d1d1d198;
+    border-top: 1px solid #d1d1d198;
+    border-right: 1px solid #d1d1d198;
+}
+.post .post-header .rc{
+    width: 30px;
+    height: 30px;
+}
+.post .post-header .rc img{
+    width: 100%;
+    border-radius: 50%;
+}
+.post .post-header p{
+    margin-left: 7px;
+    font-size: var(--fs-post);
+    font-weight: 600;
+}
+.post .post-content{
+    width: 100%;
+    height: 550px;
+}
+.post .post-content .rc{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.post .post-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.post .post-footer{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-post-background);
+    border-left: 1px solid #d1d1d198;
+    border-bottom: 1px solid #d1d1d198;
+    border-right: 1px solid #d1d1d198;
+}
+.post .post-footer .actions{
+    padding-top: 5px;
+    width: 100%;
+}
+.post .post-footer .actions .action{
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+    border: 0;
+    background-color: var(--color-post-background);
+    cursor: pointer;
+    transition: 200ms;
+    outline: none;
+}
+.post .post-footer .actions .active:focus{
+    color: red;
+}
+.post .post-footer .actions .hover:hover{
+    color: var(--color-hover);
+}
+.comments{
+    width: 100%;
+    padding: 0 10px;
+}
+.comments .likes{
+    width: 100%;
+}
+.comments .nlikes{
+    font-size: var(--fs-footer-strong);
+}
+.comments .profile{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+.comments .profile .rc{
+    width: 25px;
+    height: 25px;
+}
+.comments .profile .rc img{
+    width: 100%;
+    border-radius: 50%;
+}
+.comments .profile p{
+    margin-left: 7px;
+}
+.comments .capture-comments{
+    width: 100%;
+}
+.comments .capture-comments textarea{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    resize: none;
+}

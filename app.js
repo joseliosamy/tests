@@ -24,6 +24,10 @@ app.get('/test-html', (req, res)=>{
 app.get('/consume-api', (req, res)=>{
     res.sendFile(__dirname + '/src/pages/consume-api.html')
 })
+//SOCIAL NETWORK
+app.get('/social-network', (req, res)=>{
+    res.sendFile(__dirname + '/src/pages/social-network.html')
+})
 //API BASICA
 app.get('/api', (req, res)=>{
     res.json([
