@@ -18,6 +18,12 @@
         margin-bottom: 30px;
     }
     /*CONSUME API*/
+    #api .max{
+        width: 90%;
+    }
+    .card{
+        width: 100%;
+    }
 }
 @media(max-width:300px){
     #landing .descrip h1{
@@ -25,7 +31,9 @@
     }
     #landing .descrip p{
         font-size: min(1rem, 7vw);
-
     }
-
+    /*CONSUME API*/
+    .card .content p{
+        font-size: 14px;
+    }
 }

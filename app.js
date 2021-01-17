@@ -18,11 +18,11 @@ app.get('/', (req, res)=>{
 })
 //TEST HTML
 app.get('/test-html', (req, res)=>{
-    res.sendFile(__dirname + '/pages/test-html.html')
+    res.sendFile(__dirname + '/src/pages/test-html.html')
 })
 //CONSUME API
 app.get('/consume-api', (req, res)=>{
-    res.sendFile(__dirname + '/pages/consume-api.html')
+    res.sendFile(__dirname + '/src/pages/consume-api.html')
 })
 //API BASICA
 app.get('/api', (req, res)=>{
@@ -63,7 +63,7 @@ app.get('/api', (req, res)=>{
 })
 //FILTER ERROR 404
 app.get('/:erro', (req, res)=>{
-    res.sendFile(__dirname + '/pages/error.html')
+    res.sendFile(__dirname + '/src/pages/error.html')
 })
 app.listen(PORT, ()=>{
     console.log('escutando a porta:' + PORT)
