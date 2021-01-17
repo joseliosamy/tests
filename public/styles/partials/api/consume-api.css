@@ -1,11 +1,6 @@
 #body{
     height: 100%;
-}
-#api{
-    height: 100%;
-}
-#api .max{
-    height: 100%;
+    overflow: auto;
 }
 .cards{
     width: 100%;
@@ -14,7 +9,7 @@
     flex-wrap: wrap;
 }
 .card{
-    width: 33%;
+    width: 1fr;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.055);
     box-shadow: 1px 3px 5px #d3d3d3;
