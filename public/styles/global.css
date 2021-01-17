@@ -33,6 +33,9 @@ a{
     color: var(--color-text-primary);
     text-decoration: none;
 }
+ul, li{
+    list-style-type: none;
+}
 body{
     width: 100%;
     height: 100vh;
@@ -56,7 +59,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-input[value="Test"]{
+.button{
     width: 90px;
     height: 35px;
     border: 0;
@@ -67,7 +70,7 @@ input[value="Test"]{
     cursor: pointer;
     transition: 200ms;
 }
-input[value="Test"]:hover{
+.button:hover{
     background-color: var(--color-primary);
     color: var(--color-text-light);
 }
