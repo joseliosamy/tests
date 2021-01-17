@@ -2,7 +2,7 @@ async function getContent(){
     try{
         const response = await fetch('https://tests-my.herokuapp.com/api');
         const data = await response.json();
-        
+
         show(data)
     }
     catch(error){
